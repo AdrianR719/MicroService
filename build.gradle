@@ -41,8 +41,6 @@ dependencies {
     compile "org.grails:grails-plugin-url-mappings"
     compile "org.grails:grails-plugin-interceptors"
     
-    compile ':heroku:1.0.1'
-   compile ':cloud-support:1.0.11'
    
     compile "org.grails.plugins:cache"
     compile "org.grails.plugins:async"
@@ -55,7 +53,6 @@ dependencies {
     compile files('libs/a.jar')
     profile "org.grails.profiles:web"
     runtime "org.glassfish.web:el-impl:2.1.2-b03"
-    compile "org.grails.plugins:heroku:1.0.1"
     runtime "com.h2database:h2" 
     runtime "org.apache.tomcat:tomcat-jdbc"
     runtime 'mysql:mysql-connector-java:5.1.46'
