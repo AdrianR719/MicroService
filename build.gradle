@@ -55,7 +55,7 @@ dependencies {
     profile "org.grails.profiles:web"
     runtime "org.glassfish.web:el-impl:2.1.2-b03"
     compile "org.grails.plugins:heroku:1.0.1"
-    runtime "com.h2database:h2"
+    runtime "com.h2database:h2" 
     runtime "org.apache.tomcat:tomcat-jdbc"
     runtime 'mysql:mysql-connector-java:5.1.46'
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.8"
